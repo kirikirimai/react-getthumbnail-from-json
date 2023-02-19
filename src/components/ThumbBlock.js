@@ -28,6 +28,7 @@ const ThumbBlock = ({ id }) => {
       }
     } else {
       if (id === thumbData.id) {
+       
         return;
       } else {
         readThumb(id);
